@@ -5,6 +5,9 @@
 ![Chakra UI](https://img.shields.io/badge/Chakra_UI_v3-319795?style=for-the-badge&logo=chakraui&logoColor=white)
 ![Zustand](https://img.shields.io/badge/Zustand-4A3342?style=for-the-badge&logo=react&logoColor=white)
 
+🟢 **[Live Demo](https://fintrack-rust-two.vercel.app)** — Deployed on Vercel
+
+
 FinTrack is a full-stack grade financial dashboard built entirely on the frontend with modern principles focusing on data density, enterprise-level component design, accessibility, and internationalization. 
 
 Conceived as a demonstration of high-level proficiency in React 19, state management, and semantic UI frameworks, FinTrack tracks real-time data visualization of expenses, incomes, and historical trade events.
