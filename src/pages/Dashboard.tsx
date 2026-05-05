@@ -66,7 +66,7 @@ export function Dashboard() {
               <Text color="fg.muted" fontWeight="medium">{t("dashboard.totalBalance", "Saldo Total")}</Text>
               <Wallet size={20} color="gray" />
             </HStack>
-            <Heading size="3xl" color={balance >= 0 ? "white" : "red.500"}>
+            <Heading size="3xl" color={balance >= 0 ? "green.500" : "red.500"}>
               {formatCurrency(balance)}
             </Heading>
           </Card.Body>
