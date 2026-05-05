@@ -103,7 +103,7 @@ export function Dashboard() {
           <Card.Body>
             <Heading size="md" mb="4">Evolução de Receitas vs Despesas</Heading>
             <Box h="300px" w="full">
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer width="100%" height="100%" minWidth={1} minHeight={1}>
                 <LineChart data={monthlyData}>
                   <CartesianGrid strokeDasharray="3 3" opacity={0.2} />
                   <XAxis dataKey="name" fontSize={12} />
@@ -122,7 +122,7 @@ export function Dashboard() {
           <Card.Body>
             <Heading size="md" mb="4">Comparativo Mensal</Heading>
             <Box h="300px" w="full">
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer width="100%" height="100%" minWidth={1} minHeight={1}>
                 <BarChart data={monthlyData}>
                   <CartesianGrid strokeDasharray="3 3" opacity={0.2} />
                   <XAxis dataKey="name" fontSize={12} />
@@ -142,7 +142,7 @@ export function Dashboard() {
             <Heading size="md" mb="4">Despesas por Categoria</Heading>
             <Box h="300px" w="full">
               {categoryData.length > 0 ? (
-                <ResponsiveContainer width="100%" height="100%">
+                <ResponsiveContainer width="100%" height="100%" minWidth={1} minHeight={1}>
                   <PieChart>
                     <Pie
                       data={categoryData}
